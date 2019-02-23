@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEF255562220D13C007134AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF255552220D13C007134AA /* AppDelegate.swift */; };
+		BEF255582220D13C007134AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF255572220D13C007134AA /* ViewController.swift */; };
+		BEF2555B2220D13C007134AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF255592220D13C007134AA /* Main.storyboard */; };
+		BEF2555D2220D13D007134AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF2555C2220D13D007134AA /* Assets.xcassets */; };
+		BEF255602220D13D007134AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF2555E2220D13D007134AA /* LaunchScreen.storyboard */; };
+		BEF2556B2220D13D007134AA /* EcoDatumAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF2556A2220D13D007134AA /* EcoDatumAppTests.swift */; };
+		BEF255762220D13D007134AA /* EcoDatumAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF255752220D13D007134AA /* EcoDatumAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEF255672220D13D007134AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF2554A2220D13C007134AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF255512220D13C007134AA;
+			remoteInfo = EcoDatumApp;
+		};
+		BEF255722220D13D007134AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF2554A2220D13C007134AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF255512220D13C007134AA;
+			remoteInfo = EcoDatumApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEF255522220D13C007134AA /* EcoDatumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoDatumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF255552220D13C007134AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEF255572220D13C007134AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEF2555A2220D13C007134AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEF2555C2220D13D007134AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF2555F2220D13D007134AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEF255612220D13D007134AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF255662220D13D007134AA /* EcoDatumAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoDatumAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF2556A2220D13D007134AA /* EcoDatumAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoDatumAppTests.swift; sourceTree = "<group>"; };
+		BEF2556C2220D13D007134AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF255712220D13D007134AA /* EcoDatumAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoDatumAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF255752220D13D007134AA /* EcoDatumAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoDatumAppUITests.swift; sourceTree = "<group>"; };
+		BEF255772220D13D007134AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF2554F2220D13C007134AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF255632220D13D007134AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF2556E2220D13D007134AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF255492220D13C007134AA = {
+			isa = PBXGroup;
+			children = (
+				BEF255542220D13C007134AA /* EcoDatumApp */,
+				BEF255692220D13D007134AA /* EcoDatumAppTests */,
+				BEF255742220D13D007134AA /* EcoDatumAppUITests */,
+				BEF255532220D13C007134AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF255532220D13C007134AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF255522220D13C007134AA /* EcoDatumApp.app */,
+				BEF255662220D13D007134AA /* EcoDatumAppTests.xctest */,
+				BEF255712220D13D007134AA /* EcoDatumAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF255542220D13C007134AA /* EcoDatumApp */ = {
+			isa = PBXGroup;
+			children = (
+				BEF255552220D13C007134AA /* AppDelegate.swift */,
+				BEF255572220D13C007134AA /* ViewController.swift */,
+				BEF255592220D13C007134AA /* Main.storyboard */,
+				BEF2555C2220D13D007134AA /* Assets.xcassets */,
+				BEF2555E2220D13D007134AA /* LaunchScreen.storyboard */,
+				BEF255612220D13D007134AA /* Info.plist */,
+			);
+			path = EcoDatumApp;
+			sourceTree = "<group>";
+		};
+		BEF255692220D13D007134AA /* EcoDatumAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF2556A2220D13D007134AA /* EcoDatumAppTests.swift */,
+				BEF2556C2220D13D007134AA /* Info.plist */,
+			);
+			path = EcoDatumAppTests;
+			sourceTree = "<group>";
+		};
+		BEF255742220D13D007134AA /* EcoDatumAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF255752220D13D007134AA /* EcoDatumAppUITests.swift */,
+				BEF255772220D13D007134AA /* Info.plist */,
+			);
+			path = EcoDatumAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF255512220D13C007134AA /* EcoDatumApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF2557A2220D13D007134AA /* Build configuration list for PBXNativeTarget "EcoDatumApp" */;
+			buildPhases = (
+				BEF2554E2220D13C007134AA /* Sources */,
+				BEF2554F2220D13C007134AA /* Frameworks */,
+				BEF255502220D13C007134AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoDatumApp;
+			productName = EcoDatumApp;
+			productReference = BEF255522220D13C007134AA /* EcoDatumApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEF255652220D13D007134AA /* EcoDatumAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF2557D2220D13D007134AA /* Build configuration list for PBXNativeTarget "EcoDatumAppTests" */;
+			buildPhases = (
+				BEF255622220D13D007134AA /* Sources */,
+				BEF255632220D13D007134AA /* Frameworks */,
+				BEF255642220D13D007134AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF255682220D13D007134AA /* PBXTargetDependency */,
+			);
+			name = EcoDatumAppTests;
+			productName = EcoDatumAppTests;
+			productReference = BEF255662220D13D007134AA /* EcoDatumAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEF255702220D13D007134AA /* EcoDatumAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF255802220D13D007134AA /* Build configuration list for PBXNativeTarget "EcoDatumAppUITests" */;
+			buildPhases = (
+				BEF2556D2220D13D007134AA /* Sources */,
+				BEF2556E2220D13D007134AA /* Frameworks */,
+				BEF2556F2220D13D007134AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF255732220D13D007134AA /* PBXTargetDependency */,
+			);
+			name = EcoDatumAppUITests;
+			productName = EcoDatumAppUITests;
+			productReference = BEF255712220D13D007134AA /* EcoDatumAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF2554A2220D13C007134AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kenneth Wingerden";
+				TargetAttributes = {
+					BEF255512220D13C007134AA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BEF255652220D13D007134AA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BEF255512220D13C007134AA;
+					};
+					BEF255702220D13D007134AA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BEF255512220D13C007134AA;
+					};
+				};
+			};
+			buildConfigurationList = BEF2554D2220D13C007134AA /* Build configuration list for PBXProject "EcoDatumApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEF255492220D13C007134AA;
+			productRefGroup = BEF255532220D13C007134AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF255512220D13C007134AA /* EcoDatumApp */,
+				BEF255652220D13D007134AA /* EcoDatumAppTests */,
+				BEF255702220D13D007134AA /* EcoDatumAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF255502220D13C007134AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF255602220D13D007134AA /* LaunchScreen.storyboard in Resources */,
+				BEF2555D2220D13D007134AA /* Assets.xcassets in Resources */,
+				BEF2555B2220D13C007134AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF255642220D13D007134AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF2556F2220D13D007134AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF2554E2220D13C007134AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF255582220D13C007134AA /* ViewController.swift in Sources */,
+				BEF255562220D13C007134AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF255622220D13D007134AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF2556B2220D13D007134AA /* EcoDatumAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF2556D2220D13D007134AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF255762220D13D007134AA /* EcoDatumAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEF255682220D13D007134AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF255512220D13C007134AA /* EcoDatumApp */;
+			targetProxy = BEF255672220D13D007134AA /* PBXContainerItemProxy */;
+		};
+		BEF255732220D13D007134AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF255512220D13C007134AA /* EcoDatumApp */;
+			targetProxy = BEF255722220D13D007134AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEF255592220D13C007134AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF2555A2220D13C007134AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEF2555E2220D13D007134AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF2555F2220D13D007134AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEF255782220D13D007134AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEF255792220D13D007134AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF2557B2220D13D007134AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9424XMB56D;
+				INFOPLIST_FILE = EcoDatumApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF2557C2220D13D007134AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9424XMB56D;
+				INFOPLIST_FILE = EcoDatumApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEF2557E2220D13D007134AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9424XMB56D;
+				INFOPLIST_FILE = EcoDatumAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoDatumApp.app/EcoDatumApp";
+			};
+			name = Debug;
+		};
+		BEF2557F2220D13D007134AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9424XMB56D;
+				INFOPLIST_FILE = EcoDatumAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoDatumApp.app/EcoDatumApp";
+			};
+			name = Release;
+		};
+		BEF255812220D13D007134AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9424XMB56D;
+				INFOPLIST_FILE = EcoDatumAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoDatumApp;
+			};
+			name = Debug;
+		};
+		BEF255822220D13D007134AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9424XMB56D;
+				INFOPLIST_FILE = EcoDatumAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoDatumApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF2554D2220D13C007134AA /* Build configuration list for PBXProject "EcoDatumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF255782220D13D007134AA /* Debug */,
+				BEF255792220D13D007134AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF2557A2220D13D007134AA /* Build configuration list for PBXNativeTarget "EcoDatumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF2557B2220D13D007134AA /* Debug */,
+				BEF2557C2220D13D007134AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF2557D2220D13D007134AA /* Build configuration list for PBXNativeTarget "EcoDatumAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF2557E2220D13D007134AA /* Debug */,
+				BEF2557F2220D13D007134AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF255802220D13D007134AA /* Build configuration list for PBXNativeTarget "EcoDatumAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF255812220D13D007134AA /* Debug */,
+				BEF255822220D13D007134AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF2554A2220D13C007134AA /* Project object */;
+}
