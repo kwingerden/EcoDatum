@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:EcoDatumCommon/EcoDatumCommon.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EcoDatumModel/EcoDatumModel.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:EcoDatumApp/EcoDatumApp.xcodeproj">
    </FileRef>
    <FileRef

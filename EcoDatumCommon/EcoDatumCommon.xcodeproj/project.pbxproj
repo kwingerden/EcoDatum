@@ -7,199 +7,183 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BEF255392220D116007134AA /* EcoDatumCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF2552F2220D116007134AA /* EcoDatumCoreData.framework */; };
-		BEF2553E2220D116007134AA /* EcoDatumCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF2553D2220D116007134AA /* EcoDatumCoreDataTests.swift */; };
-		BEF255402220D116007134AA /* EcoDatumCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF255322220D116007134AA /* EcoDatumCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEF255852220D398007134AA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEF255832220D398007134AA /* Model.xcdatamodeld */; };
-		BEF255902220DB66007134AA /* EcoData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF255862220DB66007134AA /* EcoData+CoreDataClass.swift */; };
-		BEF255922220DB66007134AA /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF255882220DB66007134AA /* Photo+CoreDataClass.swift */; };
-		BEF255942220DB66007134AA /* EcoFactor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF2558A2220DB66007134AA /* EcoFactor+CoreDataClass.swift */; };
-		BEF255962220DB66007134AA /* Site+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF2558C2220DB66007134AA /* Site+CoreDataClass.swift */; };
-		BEF255982220DB66007134AA /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF2558E2220DB66007134AA /* Note+CoreDataClass.swift */; };
+		BEF255E0222105B9007134AA /* EcoDatumCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF255D6222105B9007134AA /* EcoDatumCommon.framework */; };
+		BEF255E5222105B9007134AA /* EcoDatumCommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF255E4222105B9007134AA /* EcoDatumCommonTests.swift */; };
+		BEF255E7222105B9007134AA /* EcoDatumCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF255D9222105B9007134AA /* EcoDatumCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEF255F1222105C8007134AA /* JSONCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF255F0222105C7007134AA /* JSONCodec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BEF2553A2220D116007134AA /* PBXContainerItemProxy */ = {
+		BEF255E1222105B9007134AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BEF255262220D116007134AA /* Project object */;
+			containerPortal = BEF255CD222105B9007134AA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BEF2552E2220D116007134AA;
-			remoteInfo = EcoDatumCoreData;
+			remoteGlobalIDString = BEF255D5222105B9007134AA;
+			remoteInfo = EcoDatumCommon;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BEF2552F2220D116007134AA /* EcoDatumCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EcoDatumCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEF255322220D116007134AA /* EcoDatumCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EcoDatumCoreData.h; sourceTree = "<group>"; };
-		BEF255332220D116007134AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEF255382220D116007134AA /* EcoDatumCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoDatumCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEF2553D2220D116007134AA /* EcoDatumCoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoDatumCoreDataTests.swift; sourceTree = "<group>"; };
-		BEF2553F2220D116007134AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEF255842220D398007134AA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		BEF255862220DB66007134AA /* EcoData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EcoData+CoreDataClass.swift"; sourceTree = "<group>"; };
-		BEF255882220DB66007134AA /* Photo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataClass.swift"; sourceTree = "<group>"; };
-		BEF2558A2220DB66007134AA /* EcoFactor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EcoFactor+CoreDataClass.swift"; sourceTree = "<group>"; };
-		BEF2558C2220DB66007134AA /* Site+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Site+CoreDataClass.swift"; sourceTree = "<group>"; };
-		BEF2558E2220DB66007134AA /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BEF255D6222105B9007134AA /* EcoDatumCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EcoDatumCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF255D9222105B9007134AA /* EcoDatumCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EcoDatumCommon.h; sourceTree = "<group>"; };
+		BEF255DA222105B9007134AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF255DF222105B9007134AA /* EcoDatumCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoDatumCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF255E4222105B9007134AA /* EcoDatumCommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoDatumCommonTests.swift; sourceTree = "<group>"; };
+		BEF255E6222105B9007134AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF255F0222105C7007134AA /* JSONCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCodec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BEF2552C2220D116007134AA /* Frameworks */ = {
+		BEF255D3222105B9007134AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEF255352220D116007134AA /* Frameworks */ = {
+		BEF255DC222105B9007134AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF255392220D116007134AA /* EcoDatumCoreData.framework in Frameworks */,
+				BEF255E0222105B9007134AA /* EcoDatumCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BEF255252220D116007134AA = {
+		BEF255CC222105B9007134AA = {
 			isa = PBXGroup;
 			children = (
-				BEF255312220D116007134AA /* EcoDatumCoreData */,
-				BEF2553C2220D116007134AA /* EcoDatumCoreDataTests */,
-				BEF255302220D116007134AA /* Products */,
+				BEF255D8222105B9007134AA /* EcoDatumCommon */,
+				BEF255E3222105B9007134AA /* EcoDatumCommonTests */,
+				BEF255D7222105B9007134AA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BEF255302220D116007134AA /* Products */ = {
+		BEF255D7222105B9007134AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEF2552F2220D116007134AA /* EcoDatumCoreData.framework */,
-				BEF255382220D116007134AA /* EcoDatumCoreDataTests.xctest */,
+				BEF255D6222105B9007134AA /* EcoDatumCommon.framework */,
+				BEF255DF222105B9007134AA /* EcoDatumCommonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEF255312220D116007134AA /* EcoDatumCoreData */ = {
+		BEF255D8222105B9007134AA /* EcoDatumCommon */ = {
 			isa = PBXGroup;
 			children = (
-				BEF255862220DB66007134AA /* EcoData+CoreDataClass.swift */,
-				BEF255882220DB66007134AA /* Photo+CoreDataClass.swift */,
-				BEF2558A2220DB66007134AA /* EcoFactor+CoreDataClass.swift */,
-				BEF2558C2220DB66007134AA /* Site+CoreDataClass.swift */,
-				BEF2558E2220DB66007134AA /* Note+CoreDataClass.swift */,
-				BEF255322220D116007134AA /* EcoDatumCoreData.h */,
-				BEF255332220D116007134AA /* Info.plist */,
-				BEF255832220D398007134AA /* Model.xcdatamodeld */,
+				BEF255F0222105C7007134AA /* JSONCodec.swift */,
+				BEF255D9222105B9007134AA /* EcoDatumCommon.h */,
+				BEF255DA222105B9007134AA /* Info.plist */,
 			);
-			path = EcoDatumCoreData;
+			path = EcoDatumCommon;
 			sourceTree = "<group>";
 		};
-		BEF2553C2220D116007134AA /* EcoDatumCoreDataTests */ = {
+		BEF255E3222105B9007134AA /* EcoDatumCommonTests */ = {
 			isa = PBXGroup;
 			children = (
-				BEF2553D2220D116007134AA /* EcoDatumCoreDataTests.swift */,
-				BEF2553F2220D116007134AA /* Info.plist */,
+				BEF255E4222105B9007134AA /* EcoDatumCommonTests.swift */,
+				BEF255E6222105B9007134AA /* Info.plist */,
 			);
-			path = EcoDatumCoreDataTests;
+			path = EcoDatumCommonTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BEF2552A2220D116007134AA /* Headers */ = {
+		BEF255D1222105B9007134AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF255402220D116007134AA /* EcoDatumCoreData.h in Headers */,
+				BEF255E7222105B9007134AA /* EcoDatumCommon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BEF2552E2220D116007134AA /* EcoDatumCoreData */ = {
+		BEF255D5222105B9007134AA /* EcoDatumCommon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEF255432220D116007134AA /* Build configuration list for PBXNativeTarget "EcoDatumCoreData" */;
+			buildConfigurationList = BEF255EA222105B9007134AA /* Build configuration list for PBXNativeTarget "EcoDatumCommon" */;
 			buildPhases = (
-				BEF2552A2220D116007134AA /* Headers */,
-				BEF2552B2220D116007134AA /* Sources */,
-				BEF2552C2220D116007134AA /* Frameworks */,
-				BEF2552D2220D116007134AA /* Resources */,
+				BEF255D1222105B9007134AA /* Headers */,
+				BEF255D2222105B9007134AA /* Sources */,
+				BEF255D3222105B9007134AA /* Frameworks */,
+				BEF255D4222105B9007134AA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EcoDatumCoreData;
-			productName = EcoDatumCoreData;
-			productReference = BEF2552F2220D116007134AA /* EcoDatumCoreData.framework */;
+			name = EcoDatumCommon;
+			productName = EcoDatumCommon;
+			productReference = BEF255D6222105B9007134AA /* EcoDatumCommon.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BEF255372220D116007134AA /* EcoDatumCoreDataTests */ = {
+		BEF255DE222105B9007134AA /* EcoDatumCommonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEF255462220D116007134AA /* Build configuration list for PBXNativeTarget "EcoDatumCoreDataTests" */;
+			buildConfigurationList = BEF255ED222105B9007134AA /* Build configuration list for PBXNativeTarget "EcoDatumCommonTests" */;
 			buildPhases = (
-				BEF255342220D116007134AA /* Sources */,
-				BEF255352220D116007134AA /* Frameworks */,
-				BEF255362220D116007134AA /* Resources */,
+				BEF255DB222105B9007134AA /* Sources */,
+				BEF255DC222105B9007134AA /* Frameworks */,
+				BEF255DD222105B9007134AA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BEF2553B2220D116007134AA /* PBXTargetDependency */,
+				BEF255E2222105B9007134AA /* PBXTargetDependency */,
 			);
-			name = EcoDatumCoreDataTests;
-			productName = EcoDatumCoreDataTests;
-			productReference = BEF255382220D116007134AA /* EcoDatumCoreDataTests.xctest */;
+			name = EcoDatumCommonTests;
+			productName = EcoDatumCommonTests;
+			productReference = BEF255DF222105B9007134AA /* EcoDatumCommonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BEF255262220D116007134AA /* Project object */ = {
+		BEF255CD222105B9007134AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Kenneth Wingerden";
 				TargetAttributes = {
-					BEF2552E2220D116007134AA = {
+					BEF255D5222105B9007134AA = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
 					};
-					BEF255372220D116007134AA = {
+					BEF255DE222105B9007134AA = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = BEF255292220D116007134AA /* Build configuration list for PBXProject "EcoDatumCoreData" */;
+			buildConfigurationList = BEF255D0222105B9007134AA /* Build configuration list for PBXProject "EcoDatumCommon" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = BEF255252220D116007134AA;
-			productRefGroup = BEF255302220D116007134AA /* Products */;
+			mainGroup = BEF255CC222105B9007134AA;
+			productRefGroup = BEF255D7222105B9007134AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEF2552E2220D116007134AA /* EcoDatumCoreData */,
-				BEF255372220D116007134AA /* EcoDatumCoreDataTests */,
+				BEF255D5222105B9007134AA /* EcoDatumCommon */,
+				BEF255DE222105B9007134AA /* EcoDatumCommonTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BEF2552D2220D116007134AA /* Resources */ = {
+		BEF255D4222105B9007134AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEF255362220D116007134AA /* Resources */ = {
+		BEF255DD222105B9007134AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,39 +193,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BEF2552B2220D116007134AA /* Sources */ = {
+		BEF255D2222105B9007134AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF255852220D398007134AA /* Model.xcdatamodeld in Sources */,
-				BEF255902220DB66007134AA /* EcoData+CoreDataClass.swift in Sources */,
-				BEF255942220DB66007134AA /* EcoFactor+CoreDataClass.swift in Sources */,
-				BEF255962220DB66007134AA /* Site+CoreDataClass.swift in Sources */,
-				BEF255922220DB66007134AA /* Photo+CoreDataClass.swift in Sources */,
-				BEF255982220DB66007134AA /* Note+CoreDataClass.swift in Sources */,
+				BEF255F1222105C8007134AA /* JSONCodec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEF255342220D116007134AA /* Sources */ = {
+		BEF255DB222105B9007134AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF2553E2220D116007134AA /* EcoDatumCoreDataTests.swift in Sources */,
+				BEF255E5222105B9007134AA /* EcoDatumCommonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BEF2553B2220D116007134AA /* PBXTargetDependency */ = {
+		BEF255E2222105B9007134AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BEF2552E2220D116007134AA /* EcoDatumCoreData */;
-			targetProxy = BEF2553A2220D116007134AA /* PBXContainerItemProxy */;
+			target = BEF255D5222105B9007134AA /* EcoDatumCommon */;
+			targetProxy = BEF255E1222105B9007134AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		BEF255412220D116007134AA /* Debug */ = {
+		BEF255E8222105B9007134AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,7 +284,7 @@
 			};
 			name = Debug;
 		};
-		BEF255422220D116007134AA /* Release */ = {
+		BEF255E9222105B9007134AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,10 +342,9 @@
 			};
 			name = Release;
 		};
-		BEF255442220D116007134AA /* Debug */ = {
+		BEF255EB222105B9007134AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,26 +352,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = EcoDatumCoreData/Info.plist;
+				INFOPLIST_FILE = EcoDatumCommon/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumCoreData;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumCommon;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BEF255452220D116007134AA /* Release */ = {
+		BEF255EC222105B9007134AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -401,14 +377,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = EcoDatumCoreData/Info.plist;
+				INFOPLIST_FILE = EcoDatumCommon/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumCoreData;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumCommon;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -416,38 +392,38 @@
 			};
 			name = Release;
 		};
-		BEF255472220D116007134AA /* Debug */ = {
+		BEF255EE222105B9007134AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9424XMB56D;
-				INFOPLIST_FILE = EcoDatumCoreDataTests/Info.plist;
+				INFOPLIST_FILE = EcoDatumCommonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumCoreDataTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumCommonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BEF255482220D116007134AA /* Release */ = {
+		BEF255EF222105B9007134AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9424XMB56D;
-				INFOPLIST_FILE = EcoDatumCoreDataTests/Info.plist;
+				INFOPLIST_FILE = EcoDatumCommonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumCoreDataTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ecodatum.EcoDatumCommonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,47 +433,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEF255292220D116007134AA /* Build configuration list for PBXProject "EcoDatumCoreData" */ = {
+		BEF255D0222105B9007134AA /* Build configuration list for PBXProject "EcoDatumCommon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEF255412220D116007134AA /* Debug */,
-				BEF255422220D116007134AA /* Release */,
+				BEF255E8222105B9007134AA /* Debug */,
+				BEF255E9222105B9007134AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEF255432220D116007134AA /* Build configuration list for PBXNativeTarget "EcoDatumCoreData" */ = {
+		BEF255EA222105B9007134AA /* Build configuration list for PBXNativeTarget "EcoDatumCommon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEF255442220D116007134AA /* Debug */,
-				BEF255452220D116007134AA /* Release */,
+				BEF255EB222105B9007134AA /* Debug */,
+				BEF255EC222105B9007134AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEF255462220D116007134AA /* Build configuration list for PBXNativeTarget "EcoDatumCoreDataTests" */ = {
+		BEF255ED222105B9007134AA /* Build configuration list for PBXNativeTarget "EcoDatumCommonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEF255472220D116007134AA /* Debug */,
-				BEF255482220D116007134AA /* Release */,
+				BEF255EE222105B9007134AA /* Debug */,
+				BEF255EF222105B9007134AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BEF255832220D398007134AA /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BEF255842220D398007134AA /* Model.xcdatamodel */,
-			);
-			currentVersion = BEF255842220D398007134AA /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = BEF255262220D116007134AA /* Project object */;
+	rootObject = BEF255CD222105B9007134AA /* Project object */;
 }
